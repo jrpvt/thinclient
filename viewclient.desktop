@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=viewclient
+Comment=Comment here
+Exec=vmware-view '--nonInteractive' '--serverURL=https://viewserver.local' --desktopName='Windows 7' '--nomenubar' '--once' '--allmonitors'
+Terminal=false
+Type=Application
+Icon=vmware-view
+Categories=network
+StartupNotify=false
