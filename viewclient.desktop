@@ -1,7 +1,8 @@
 [Desktop Entry]
+Version=1.0
 Name=viewclient
-Comment=Comment here
-Exec=vmware-view '--nonInteractive' '--serverURL=https://viewserver.local' --desktopName='Windows 7' '--nomenubar' '--once' '--allmonitors'
+Comment=Starts VMware Horizon View client
+Exec=/bin/sh -c "sleep 15 && vmware-view '--nonInteractive' '--serverURL=https://viewserver.local' --desktopName='Windows 7' '--nomenubar' '--once' '--allmonitors'"
 Terminal=false
 Type=Application
 Icon=vmware-view
